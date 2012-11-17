@@ -1,5 +1,5 @@
 <?php
-//Download
+//Download README.md
 $download = false;
 if($_SERVER['QUERY_STRING'] == 'download') {
 	header('Content-Type: text/plain; charset=utf-8');
@@ -10,6 +10,7 @@ if($_SERVER['QUERY_STRING'] == 'download') {
 	$download = true;
 }
 
+//Convert HTML to Markdown
 if (!empty($_POST['editor'])) {
 	include 'lib/markdownify/markdownify_extra.php';
 
@@ -44,6 +45,8 @@ if (!empty($_POST['editor'])) {
 	//<![CDATA[
 		$(document).ready(function(){
 			$('#editor').wysiwyg({
+			  initialContent: '',
+			  autoGrow: true,
 			  controls: {
 			  	undo : { visible : true },
 				redo : { visible : true },
@@ -92,8 +95,9 @@ if (!empty($_POST['editor'])) {
 	</script>
 	<link rel="stylesheet" href="lib/jwysiwyg/jquery.wysiwyg.css" type="text/css" media="screen" charset="utf-8" />
 	<style type="text/css" media="screen">
-		#container{ width:600px; }
-		textarea{ width:500px; height:300px; }
+		body { padding: 0; margin: 0; }
+		#container { width: 100%; }
+		textarea{ width:100%; border: none; padding: 0; margin: 0; }
 	</style>
 </head>
 <body>
