@@ -20,9 +20,13 @@ E depois
 
 E no meu disso tudo um [link][2] bem aqui.
 
-E no final
+### E no final
 
-`Um bloco<br>de código<br>bem aqui`
+```php
+Um bloco
+de $codigo
+bem aqui
+```
 
  [1]: https://a248.e.akamai.net/assets.github.com/images/modules/about_page/octocat.png?1340659511 "Github"
  [2]: http://google.com
