@@ -19,6 +19,50 @@ E depois
 
 E no meu disso tudo um [link][2] bem aqui.
 
+<table style="width: 100%;" border="1">
+  <tr>
+    <td>
+      Lorem ipsum
+    </td>
+    
+    <td>
+      Lorem ipsum
+    </td>
+    
+    <td>
+      Lorem ipsum
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Lorem ipsum
+    </td>
+    
+    <td>
+      Lorem ipsum
+    </td>
+    
+    <td>
+      Lorem ipsum
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      Lorem ipsum
+    </td>
+    
+    <td>
+      Lorem ipsum
+    </td>
+    
+    <td>
+      Lorem ipsum
+    </td>
+  </tr>
+</table>
+
 ### E no final
 
 ```php
