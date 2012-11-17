@@ -86,7 +86,7 @@ if (!empty($_POST['editor'])) {
 			  }
 			});
 	
-			$('#editor').wysiwyg("insertHtml", "<p></p><h1>Initial content</h1><p>Esse é apenas um Teste!<br></p><ol><li>Aqui tem</li><li>uma lista</li><li>numerada</li></ol><ul><li>e aqui</li><li>tem</li><li>uma lista</li><li>sem ser numerada</li></ul><p><br></p><h2>Novo titulo</h2><p><br>E no meu disso tudo um <a href='http://google.com'>link</a> bem aqui.</p>");
+			//$('#editor').wysiwyg("insertHtml", "<p></p><h1>Initial content</h1><p>Esse é apenas um Teste!<br></p><ol><li>Aqui tem</li><li>uma lista</li><li>numerada</li></ol><ul><li>e aqui</li><li>tem</li><li>uma lista</li><li>sem ser numerada</li></ul><p><br></p><h2>Novo titulo</h2><p><br>E no meu disso tudo um <a href='http://google.com'>link</a> bem aqui.</p>");
 		});
 	//]]>
 	</script>
