@@ -19,7 +19,7 @@ E depois
 
 E no meu disso tudo um [link][2] bem aqui.
 
-<table style="width: 100%;" border="1">
+<table>
   <tr>
     <td>
       Lorem ipsum
