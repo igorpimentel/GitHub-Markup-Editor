@@ -9,8 +9,7 @@ Esse é apenas um Teste!
 *   e aqui
 *   tem
 *   uma lista
-*   uma sublista
-
+	*   uma sublista
 *   sem ser numerada
 
 ## Novo titulo
